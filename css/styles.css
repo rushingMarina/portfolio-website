@@ -1,3 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+.cop {
+  position: relative;
+  font-family: 'Monoton', cursive;
+  font-size: 80px;
+  line-height: 1;
+  margin: 2rem;
+  margin-top: 2rem;
+  /* font-weight: normal; */
+  background-image: -webkit-linear-gradient(#022486 0%, #0AD0FD 30%, #BDFCFC 40%, #D8FFFF 44%, #00081C 44%, #00081C 50%, #074A67 52%, #1CD8FE 60%, #7FEDFE 62%, #96F5FC 70%, #0FD8FA 73%, #0BD2FD 88%, #AFFDFF 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,9 +29,11 @@
           box-sizing: border-box;
 }
 
-body {
+body,
+span {
 	background: rgb(174,238,209);
 	background: radial-gradient(circle, rgba(174,238,209,1) 10%, rgba(168,148,233,1) 94%);
+	font-family: 'Press Start 2P', cursive;
 }
 
 h1{
@@ -64,13 +90,12 @@ h1{
 	height: auto;
 	border-radius: 10px;
 	color: #fff;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 .back{
-  background: #78f3bf;
-  background: -webkit-gradient(linear, left top, right top, from(#78f3bf), to(#63eaf7));
-  background: linear-gradient(to right, #78f3bf, #63eaf7);
+	background: rgb(174,238,209);
+	background: radial-gradient(circle, rgba(174,238,209,1) 10%, rgba(168,148,233,1) 94%);
   color: #000;
 }
 
@@ -149,7 +174,7 @@ h1{
 }
 
 .front .inner p{
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
   position: relative;
 }
@@ -173,7 +198,7 @@ h1{
   font-weight: 300;
 }
 
-@media screen and (max-width: 64rem){
+@media screen and (max-width: 73rem){
   .col{
     width: calc(33.333333% - 2rem);
   }
@@ -191,3 +216,26 @@ h1{
     margin: 0 0 2rem 0;
   }
 }
+
+/* SOCIAL LINKS ICONS */
+.social-list {
+	padding-left: 0;
+	padding-top: 1rem;
+}
+
+.social-list li {
+	list-style: none;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+	margin-top: 10px;
+}
+.social-icon i {
+	font-size: 30px;
+}
+.social-icon i:hover {
+	color: #AFFDFF;
+}
+
+
