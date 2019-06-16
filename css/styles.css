@@ -54,6 +54,7 @@ h1{
 	
 }
 
+
 .wrapper{
   width: 90%;
   margin: 0 auto;
@@ -254,6 +255,10 @@ h1{
 	color: #9764c7;
 }
 /* BIO */
+
+.bio h1 {
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
 .bio {
   background: rgb(174,238,209);
   background: radial-gradient(circle, rgba(174,238,209,1) 10%, rgba(168,148,233,1) 94%);
@@ -264,7 +269,7 @@ h1{
   max-width: 460px;
   padding: 30px;
   text-align: center;
-	font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', cursive;
 	
 }
 
@@ -320,4 +325,16 @@ h1{
 
 .bio h1 {
 	color: #9764c7;
+}
+
+
+/* back iiner link*/ 
+
+.back a:link {
+	 text-decoration: none;
+	color: black;
+}
+.back a:active {
+	 text-decoration: none;
+	color: #099a97;
 }
