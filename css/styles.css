@@ -1,16 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
-@import url(https://fonts.googleapis.com/css?family=Righteous);
-@import url(https://fonts.googleapis.com/css?family=Candal);
+/*
+	COLORS:
+		light pink :  #f1e4e4
+		bright green: #15cda8
+		dark green:   #099a97
+		purple: 	  #9764c7
+	Geandient:
+		background: rgb(151,100,199);
+		background: radial-gradient(circle, rgba(151,100,199,1) 10%, rgba(21,205,168,1) 94%);
 
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
-
+*/
 @import url(https://fonts.googleapis.com/css?family=Monoton);
 
 .cop {
   position: relative;
   font-family: 'Monoton', cursive;
-  font-size: 80px;
+  font-size: 65px;
   line-height: 1;
   margin: 2rem;
   margin-top: 2rem;
@@ -31,18 +35,23 @@
 
 body,
 span {
+/*
 	background: rgb(174,238,209);
 	background: radial-gradient(circle, rgba(174,238,209,1) 10%, rgba(168,148,233,1) 94%);
+*/
+	background: rgb(151,100,199);
+	background: radial-gradient(circle, rgba(151,100,199,1) 10%, rgba(21,205,168,1) 94%);
 	font-family: 'Press Start 2P', cursive;
 }
 
 h1{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-family: 'Montserrat';
   font-weight: normal;
-  color: #444;
+  color: black;
   text-align: center;
   margin: 2rem 0;
+	
 }
 
 .wrapper{
@@ -73,6 +82,7 @@ h1{
           transform-style: preserve-3d;
 	-webkit-perspective: 1000px;
 	        perspective: 1000px;
+	
 }
 
 .front,
@@ -91,6 +101,8 @@ h1{
 	border-radius: 10px;
 	color: #fff;
 	font-size: 1rem;
+	-webkit-box-shadow: 0 10px 15px #9764c7;
+	box-shadow: 0 10px 15px #9764c7;
 }
 
 .back{
@@ -230,6 +242,7 @@ h1{
 	height: 32px;
 	margin-right: 6px;
 	margin-top: 10px;
+	color: #9764c7;
 }
 .social-icon i {
 	font-size: 30px;
@@ -237,5 +250,74 @@ h1{
 .social-icon i:hover {
 	color: #AFFDFF;
 }
+.social-icon i{
+	color: #9764c7;
+}
+/* BIO */
+.bio {
+  background: rgb(174,238,209);
+  background: radial-gradient(circle, rgba(174,238,209,1) 10%, rgba(168,148,233,1) 94%);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 15px #9764c7;
+  box-shadow: 0 10px 15px #9764c7;
+  margin: 0 auto;
+  max-width: 460px;
+  padding: 30px;
+  text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	
+}
+
+.bio-avatar {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.bio-name {
+ font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 5px 0 0 0;
+}
+
+.bio-link {
+  display: inline-block;
+  margin: 5px 0 0 0;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
 
 
+.bio-description {
+  text-align: left;
+}
+
+.toggle-trigger {
+  background: #fff;
+  border: 2px solid #e5e5e5;
+  color: #3a7bd5;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.toggle-trigger:after {
+  content: "\2193";
+  margin-left: 5px;
+}
+
+.is-closed .toggle-content {
+  height: 0;
+  overflow: hidden;
+}
+
+.bio-desc {
+	margin-top: 1rem;
+	line-height:  1.3rem;
+}
+
+.bio h1 {
+	color: #9764c7;
+}
