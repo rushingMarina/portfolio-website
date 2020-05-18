@@ -41,6 +41,7 @@ span {
 */
 	background: rgb(151,100,199);
 	background: radial-gradient(circle, rgba(151,100,199,1) 10%, rgba(21,205,168,1) 94%);
+
 	font-family: 'Press Start 2P', cursive;
 }
 
@@ -62,6 +63,7 @@ h1{
 }
 
 .row{
+  padding-bottom: 2.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,6 +106,7 @@ h1{
 	font-size: 1rem;
 	-webkit-box-shadow: 0 10px 15px #9764c7;
 	box-shadow: 0 10px 15px #9764c7;
+	line-height: 1.4rem;
 }
 
 .back{
@@ -127,21 +130,17 @@ h1{
             backface-visibility: hidden;
     border-radius: 10px;
 }
-/*
-.container:hover .front,
-.container:hover .back{
-    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-}
-*/
+
 
 .back{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.link-to-web {
+	color: 	#282828;
 }
 
 .inner{
@@ -312,6 +311,17 @@ h1{
 .bio h1 {
 	color: #9764c7;
 }
+
+.bio-name {
+	margin-bottom: 10px;
+}
+
+.emailme {
+	font-size: 0.7rem;
+	margin: 5px;
+}
+
+
 
 
 /* back iiner link*/ 
